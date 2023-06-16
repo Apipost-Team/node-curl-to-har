@@ -1,0 +1,16 @@
+{
+  "name": "node-curl-to-har",
+  "version": "1.0.0",
+  "description": "一个Node环境下用于将curl命令转换成har对象的工具库",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Apipost-Team",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "tree-sitter": "^0.20.2",
+    "tree-sitter-bash": "^0.19.0"
+  }
+}
