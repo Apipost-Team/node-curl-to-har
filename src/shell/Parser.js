@@ -1,5 +1,10 @@
-import Parser from "tree-sitter";
-import Bash from "tree-sitter-bash";
+const Parser = require("tree-sitter");
+const Bash = require("tree-sitter-bash");
+
+// const Parser =()=>0
+// const Bash={}
+
+
 
 const parser = new Parser();
 parser.setLanguage(Bash);
